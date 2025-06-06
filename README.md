@@ -15,7 +15,7 @@ A Python library that extends [Camoufox](https://github.com/daijro/camoufox) to 
 
   <details> 
   <summary><h3>Cloudflare Click Turnstile</h3></summary>
-  
+
   https://github.com/user-attachments/assets/90206e23-ac2f-4e45-a4c4-e1fd7e8f17e3
 
   </details>
@@ -86,7 +86,7 @@ These settings are essential for proper closed Shadow DOM traversal and browser 
 ---  
 
 
-See usage examples in the [/examples](/examples) directory for ready-to-use scripts.
+See usage examples in the [/examples](https://github.com/techinz/camoufox-captcha/tree/main/examples) directory for ready-to-use scripts.
 
 ### Basic Example (Cloudflare Interstitial)
 
@@ -272,7 +272,7 @@ Please ensure your code passes all tests and maintains or improves test coverage
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/techinz/camoufox-captcha/tree/main/LICENSE) file for details.
 
 ---
 
