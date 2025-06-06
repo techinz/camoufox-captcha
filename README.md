@@ -10,9 +10,11 @@ A Python library that extends [Camoufox](https://github.com/daijro/camoufox) to 
 
 <div align="center">
   <h3>Cloudflare Click Interstitial</h3>
-  
+  https://github.com/user-attachments/assets/10ced3fe-044b-4657-b371-155f1e943955
+
   <details> 
   <summary><h3>Cloudflare Click Turnstile</h3></summary>
+  https://github.com/user-attachments/assets/90206e23-ac2f-4e45-a4c4-e1fd7e8f17e3
   </details>
 </div>
 
