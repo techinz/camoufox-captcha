@@ -1,0 +1,8 @@
+# camoufox
+playwright>=1.52.0
+camoufox[geoip]==0.4.11
+
+# tests
+pytest==8.4.0
+pytest-asyncio==1.0.0
+pytest-cov==6.1.1
