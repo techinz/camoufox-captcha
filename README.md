@@ -2,6 +2,7 @@
 
 [![Python 3.8+](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![Coverage](https://img.shields.io/badge/Coverage-100%25-brightgreen.svg)](https://pytest-cov.readthedocs.io/en/latest/readme.html#acknowledgements)
+[![PyPI version](https://img.shields.io/pypi/v/camoufox-captcha.svg)](https://pypi.org/project/camoufox-captcha/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 A Python library that extends [Camoufox](https://github.com/daijro/camoufox) to automatically solve captcha challenges. Currently supports only Cloudflare challenges (interstitial and turnstile), with more captcha types planned.
