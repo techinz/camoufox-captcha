@@ -21,6 +21,7 @@ async def solve_cloudflare_by_click(
         wait_checkbox_attempts: int = 10,
         wait_checkbox_delay: int = 6,
         checkbox_click_attempts: int = 3,
+        attempt_delay: int = 5
 ) -> bool:
     """
     Solve Cloudflare challenge by searching for & clicking the checkbox input
@@ -33,6 +34,7 @@ async def solve_cloudflare_by_click(
     :param wait_checkbox_attempts: Maximum number of attempts to find the checkbox and wait for it to be ready
     :param wait_checkbox_delay: Delay between wait_checkbox_attempts in seconds to find the checkbox and wait for it to be ready
     :param checkbox_click_attempts: Maximum number of attempts to click the checkbox
+    :param attempt_delay: Delay between solve attempts in seconds
     :return: True if solved, False otherwise
     """
 
@@ -40,6 +42,8 @@ async def solve_cloudflare_by_click(
 
     for attempt in range(solve_attempts):
         if attempt > 0:
+            await asyncio.sleep(attempt_delay)
+
             logger.warning(f'Retrying to solve ({attempt + 1}/{solve_attempts})...')
 
         # 1. check if Cloudflare challenge is present
