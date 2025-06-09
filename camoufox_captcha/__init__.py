@@ -46,7 +46,12 @@ async def solve_captcha(
             captcha_type="cloudflare",
             challenge_type="interstitial",
             expected_content_selector="#main-content", 
-            solve_attempts=5
+            solve_attempts=3,
+            solve_click_delay=6,
+            wait_checkbox_attempts=10,
+            wait_checkbox_delay=6,
+            checkbox_click_attempts=3
+            attempt_delay=5
         )
         ```
     """
