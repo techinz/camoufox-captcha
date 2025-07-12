@@ -1,3 +1,9 @@
+# ⚠️ This project has moved
+
+This repo is no longer maintained. Please use the actively developed version here:
+
+👉 [https://github.com/techinz/playwright-captcha](https://github.com/techinz/playwright-captcha)
+
 # Camoufox Captcha
 
 [![Python 3.8+](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/downloads/)
